@@ -2,3 +2,5 @@
 bundle.js
 npm-debug.log
 .idea
+
+/src/resources/OPENWEATHERMAP_API_KEY.js
