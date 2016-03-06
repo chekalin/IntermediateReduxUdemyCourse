@@ -1,5 +1,5 @@
 import axios from "axios";
-import API_KEY from "../resources/OPENWEATHERMAP_API_KEY";
+const API_KEY = '28f5c72690758bba709786cb2e45ab48';
 
 export const FETCH_WEATHER = 'FETCH_WEATHER';
 
