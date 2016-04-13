@@ -1,8 +1,8 @@
-import {FETCH_WEATHER} from "../actions/index";
+import {WEATHER_FETCHED} from "../actions/index";
 
 export default function (state = [], action) {
     switch (action.type) {
-        case FETCH_WEATHER:
+        case WEATHER_FETCHED:
             return [action.payload.data, ...state];
     }
     return state;
